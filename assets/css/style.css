@@ -3,10 +3,9 @@
     text-align: center;
     color: #777777;
     background-color: white;
-    border: 1px solid black;
 }
 
-h1,h2,h3,h4,h5{
+h1,h2,h3{
     font-family: 'Georgia', Times, Times-New-Roman, serif;
     color: #4aaaa5;
     width: 300px;
@@ -52,7 +51,7 @@ footer{
     padding: 50px;
 }
 
-section{
+.bkimg{
     background-image: url("../images/mooning/mooning/mooning.png");
 }
 
@@ -155,4 +154,23 @@ section{
     float: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+#emailAddress{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fullname{
+    clear: both;
+    float: center;
+    margin: 0px 20px 10px 20px;
+}
+
+#message{
+    background-color: white;
+    float: center;
+    width: 400px;
+    height: 400px;
+    align-content: flex-start;
 }
